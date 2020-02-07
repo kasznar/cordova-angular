@@ -10,7 +10,8 @@
     "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2015",
+    // original value is es2015, changed to change the <script> import in the built index.html preventing MIME errors
+    "target": "es5",
     "typeRoots": [
       "node_modules/@types"
     ],

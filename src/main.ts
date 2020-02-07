@@ -8,5 +8,12 @@ if (environment.production) {
   enableProdMode();
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+// only start when cordova wrapper is ready
+const onDeviceReady = () => {
+  platformBrowserDynamic().bootstrapModule(AppModule)
+    .catch(err => console.error(err));
+
+};
+
+document.addEventListener('deviceready', onDeviceReady, false);
+

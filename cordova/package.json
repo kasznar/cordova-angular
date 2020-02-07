@@ -1,5 +1,5 @@
 {
-  "name": "helloworld",
+  "name": "com.example.helloangular",
   "displayName": "HelloCordova",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
@@ -14,17 +14,25 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
-    "cordova-ios": "^5.1.1"
+    "cordova-android": "^8.1.0",
+    "cordova-ios": "^5.1.1",
+    "cordova-plugin-badge": "^0.8.8",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-local-notification": "git+https://github.com/katzer/cordova-plugin-local-notifications.git"
   },
   "devDependencies": {
     "cordova-plugin-whitelist": "^1.3.4"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-local-notification": {
+        "ANDROID_SUPPORT_V4_VERSION": "26.+"
+      }
     },
     "platforms": [
-      "ios"
+      "ios",
+      "android"
     ]
   }
 }

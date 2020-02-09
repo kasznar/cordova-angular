@@ -80,12 +80,6 @@ var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.title = 'my-dream-app';
     }
-    AppComponent.prototype.ngOnInit = function () {
-        cordova.plugins.notification.local.schedule({
-            title: 'Cordova Angular notification <3',
-            trigger: { in: 10, unit: 'second' }
-        });
-    };
     AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
     AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 10, vars: 0, consts: [["role", "banner", 1, "toolbar"], ["width", "40", "alt", "Angular Logo", "src", "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="], [1, "spacer"], ["role", "main", 1, "content"], ["src", "assets/circle-game.png", "alt", "image"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -113,7 +107,7 @@ var AppComponent = /** @class */ (function () {
                 templateUrl: './app.component.html',
                 styleUrls: ['./app.component.scss']
             }]
-    }], function () { return []; }, null); })();
+    }], null, null); })();
 
 
 /***/ }),
@@ -233,7 +227,7 @@ document.addEventListener('deviceready', onDeviceReady, false);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\u739919\Documents\cordova-angular\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/kasznar/Documents/cross-app-mac/my-dream-app/src/main.ts */"./src/main.ts");
 
 
 /***/ })

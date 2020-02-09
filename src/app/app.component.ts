@@ -1,5 +1,4 @@
-import {Component, OnInit} from '@angular/core';
-declare var cordova;
+import {Component, } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,15 +6,6 @@ declare var cordova;
   styleUrls: ['./app.component.scss']
 })
 
-export class AppComponent implements OnInit{
+export class AppComponent {
   title = 'my-dream-app';
-
-  constructor() {}
-
-  ngOnInit(): void {
-    cordova.plugins.notification.local.schedule({
-      title: 'Cordova Angular notification <3',
-      trigger: { in: 10, unit: 'second' }
-    });
-  }
 }

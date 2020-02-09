@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "153382945508",
+    "firebase_url": "https://skillful-coast-234417.firebaseio.com",
+    "project_id": "skillful-coast-234417",
+    "storage_bucket": "skillful-coast-234417.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153382945508:android:cd5274372c3773a08862f1",
+        "android_client_info": {
+          "package_name": "io.cordova.hellocordova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153382945508-o57lfupkm7flfrq98k3n9qpubc7u3j30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYDqpNt7a4FPP4yJ7p7V4RjuIqPl80QtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153382945508-o57lfupkm7flfrq98k3n9qpubc7u3j30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

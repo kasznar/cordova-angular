@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>153382945508-lou3io1i33q4bm6eqs752fmi2rb1i058.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.153382945508-lou3io1i33q4bm6eqs752fmi2rb1i058</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDb24XZhLEsSpLm5ZfLIm3x791PeUxAaCA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>153382945508</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.cordova.hellocordova</string>
+	<key>PROJECT_ID</key>
+	<string>skillful-coast-234417</string>
+	<key>STORAGE_BUCKET</key>
+	<string>skillful-coast-234417.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:153382945508:ios:84a12453bd2b0c6a8862f1</string>
+	<key>DATABASE_URL</key>
+	<string>https://skillful-coast-234417.firebaseio.com</string>
+</dict>
+</plist>

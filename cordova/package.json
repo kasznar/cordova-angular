@@ -1,5 +1,5 @@
 {
-  "name": "io.cordova.hellocordova",
+  "name": "hu.kasznar.hellocordova",
   "displayName": "HelloCordova",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
@@ -32,7 +32,6 @@
       }
     },
     "platforms": [
-      "ios",
       "android"
     ]
   }

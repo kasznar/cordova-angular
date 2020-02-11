@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:153382945508:android:cd5274372c3773a08862f1",
+        "mobilesdk_app_id": "1:153382945508:android:ef3bff7b72e8e8248862f1",
         "android_client_info": {
-          "package_name": "io.cordova.hellocordova"
+          "package_name": "hu.kasznar.hellocordova"
         }
       },
       "oauth_client": [
@@ -30,6 +30,13 @@
             {
               "client_id": "153382945508-o57lfupkm7flfrq98k3n9qpubc7u3j30.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "153382945508-l41rb40no79uau4lga83n0n74fd8oud5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "hu.kasznar.hellocordova"
+              }
             }
           ]
         }
